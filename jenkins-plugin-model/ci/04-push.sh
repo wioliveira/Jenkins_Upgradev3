@@ -7,5 +7,4 @@ then
 else 
     docker login -u $DOCKER_HUB_USER -p $DOCKER_HUB_PASSWORD
 fi
-
 docker push wioliveira/jenkins-demo2:$1
